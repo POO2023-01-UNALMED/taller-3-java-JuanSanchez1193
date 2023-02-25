@@ -3,6 +3,7 @@ package taller3.televisores;
 public class Control {
 	private TV tv;
 
+
 	
 	public TV getTv() {
 		return tv;
@@ -30,6 +31,12 @@ public class Control {
 	}
 	public void setCanal(int canal) {
 		tv.setCanal(canal);
+	}
+	public void canalUp() {
+		tv.canalUp();
+	}
+	public void canalDown() {
+		tv.canalDown();
 	}
 
 
