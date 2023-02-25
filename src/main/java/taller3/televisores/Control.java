@@ -3,10 +3,6 @@ package taller3.televisores;
 public class Control {
 	private TV tv;
 
-	public Control(TV tv) {
-		super();
-		this.tv = tv;
-	}
 	
 	public TV getTv() {
 		return tv;
